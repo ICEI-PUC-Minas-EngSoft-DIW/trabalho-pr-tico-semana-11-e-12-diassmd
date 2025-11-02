@@ -1,25 +1,32 @@
 {
   "noticias": [
     {
-      "id": "2",
+      "id": 1,
+      "titulo": "Messi marca golaço em estreia",
+      "imagem": "images/messi_gol.png",
+      "resumo": "O craque argentino brilhou em sua primeira partida pelo novo clube.",
+      "conteudo": "Lionel Messi marcou um gol em sua estreia pelo Inter Miami..."
+    },
+    {
+      "id": 2,
       "titulo": "Cruzeiro contrata Keny Arroyo",
       "imagem": "images/cruzeiro_Keny.png",
       "resumo": "Atacante colombiano chega para reforçar o elenco celeste.",
-      "conteudo": "O Cruzeiro contratou o atacante equatoriano Keny Arroyo..."
+      "conteudo": "O Cruzeiro contratou o atacante equatoriano Keny Arroyo por um valor..."
     },
     {
-      "id": "3",
+      "id": 3,
       "titulo": "Neymar volta aos treinos após lesão",
       "imagem": "images/neymar_treino.jpg",
       "resumo": "O atacante brasileiro deve retornar aos gramados em breve.",
       "conteudo": "A previsão é que o atacante retorne aos gramados somente nas últimas rodadas..."
     },
     {
-      "id": "4",
-      "titulo": "Vinícius Jr. brilha no clássico",
-      "imagem": "images/vinicius_clasico.jpg",
-      "resumo": "Atacante brasileiro marcou dois gols e liderou a vitória.",
-      "conteudo": "Vinícius Jr. fez uma atuação brilhante no clássico, marcando dois gols e sendo eleito o melhor em campo..."
+      "id": "ee28",
+      "titulo": "Nova notícia teste",
+      "imagem": "images/teste.png",
+      "resumo": "Resumo da notícia teste",
+      "conteudo": "Conteúdo completo da notícia teste"
     }
   ]
 }
