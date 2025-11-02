@@ -1,32 +1,32 @@
 {
   "noticias": [
     {
-      "id": 1,
+      "id": "1",
       "titulo": "Messi marca golaço em estreia",
       "imagem": "images/messi_gol.png",
       "resumo": "O craque argentino brilhou em sua primeira partida pelo novo clube.",
       "conteudo": "Lionel Messi marcou um gol em sua estreia pelo Inter Miami..."
     },
     {
-      "id": 2,
+      "id": "2",
       "titulo": "Cruzeiro contrata Keny Arroyo",
       "imagem": "images/cruzeiro_Keny.png",
       "resumo": "Atacante colombiano chega para reforçar o elenco celeste.",
       "conteudo": "O Cruzeiro contratou o atacante equatoriano Keny Arroyo por um valor..."
     },
     {
-      "id": 3,
+      "id": "3",
       "titulo": "Neymar volta aos treinos após lesão",
       "imagem": "images/neymar_treino.jpg",
       "resumo": "O atacante brasileiro deve retornar aos gramados em breve.",
       "conteudo": "A previsão é que o atacante retorne aos gramados somente nas últimas rodadas..."
     },
     {
-      "id": "ee28",
-      "titulo": "Nova notícia teste",
-      "imagem": "images/teste.png",
-      "resumo": "Resumo da notícia teste",
-      "conteudo": "Conteúdo completo da notícia teste"
+      "id": "e937",
+      "titulo": "Cruzeiro vence Vitória e se aproxima da Libertadores",
+      "resumo": "Cruzeiro se aproxima da libertadores",
+      "conteudo": "testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "imagem": "https://medias.itatiaia.com.br/dims4/default/993886f/2147483647/strip/true/crop/1600x901+0+0/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-radio-itatiaia.s3.us-east-1.amazonaws.com%2Fbrightspot%2F46%2Fbf%2Fca0b19e64bcb8896d89bb35d9d96%2Fwhatsapp-image-2025-11-01-at-17-10-10.jpeg"
     }
   ]
 }

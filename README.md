@@ -6,20 +6,20 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Matheus Dias
+- Matricula: 877215
+- Proposta de projeto escolhida: 3. Organizações e Equipes
+- Breve descrição sobre seu projeto: Site de notícias e curiosidades sobre o mundo do futebol,relacionado a times e atletas desse meio.
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+<< ![Print](public/images/print_get.png)>>
 
-<< COLOQUE A IMAGEM POST AQUI >>
+<< ![Print](public/images/print_post.png)>>
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+<< ![Print](public/images/print_put.png)>>
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+<< ![Print](public/images/print_delete.png)>>
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 

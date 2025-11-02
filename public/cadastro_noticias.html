@@ -8,81 +8,50 @@
 </head>
 <body>
 
-  <header class="bg-primary text-white p-3">
-    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
-      <h1 class="mb-3 mb-md-0">Futebol News</h1>
-      <nav>
-        <ul class="nav">
-          <li class="nav-item"><a href="index.html" class="nav-link text-white">Início</a></li>
-          <li class="nav-item"><a href="cadastro_noticias.html" class="nav-link text-white">Cadastrar Notícia</a></li>
-        </ul>
-      </nav>
+<header class="bg-primary text-white p-3">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <h1 class="mb-3 mb-md-0">Futebol News</h1>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item"><a href="index.html" class="nav-link text-white">Início</a></li>
+        <li class="nav-item"><a href="cadastro_noticias.html" class="nav-link text-white">Cadastrar Notícia</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container my-5">
+  <h2 class="mb-4">Cadastrar Nova Notícia</h2>
+
+  <form id="form-criar-noticia" class="row g-3">
+    <div class="col-md-6">
+      <label for="titulo" class="form-label">Título</label>
+      <input type="text" class="form-control" id="titulo" required>
     </div>
-  </header>
+    <div class="col-md-6">
+      <label for="resumo" class="form-label">Resumo</label>
+      <input type="text" class="form-control" id="resumo" required>
+    </div>
+    <div class="col-12">
+      <label for="conteudo" class="form-label">Conteúdo</label>
+      <textarea class="form-control" id="conteudo" rows="5" required></textarea>
+    </div>
+    <div class="col-12">
+      <label for="imagem" class="form-label">URL da Imagem</label>
+      <input type="text" class="form-control" id="imagem" placeholder="ex: images/noticia.png" required>
+    </div>
+    <div class="col-12 d-grid">
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </div>
+  </form>
 
-  <main class="container my-5">
-    <h2 class="mb-4">Cadastrar Nova Notícia</h2>
+  <div id="mensagem" class="mt-3"></div>
+</main>
 
-    <form id="form-criar-noticia" class="row g-3">
-      <div class="col-md-6">
-        <label for="titulo" class="form-label">Título</label>
-        <input type="text" class="form-control" id="titulo" required>
-      </div>
-      <div class="col-md-6">
-        <label for="resumo" class="form-label">Resumo</label>
-        <input type="text" class="form-control" id="resumo" required>
-      </div>
-      <div class="col-12">
-        <label for="conteudo" class="form-label">Conteúdo</label>
-        <textarea class="form-control" id="conteudo" rows="5" required></textarea>
-      </div>
-      <div class="col-12">
-        <label for="imagem" class="form-label">URL da Imagem</label>
-        <input type="text" class="form-control" id="imagem" placeholder="ex: images/noticia.png" required>
-      </div>
-      <div class="col-12 d-grid">
-        <button type="submit" class="btn btn-primary">Cadastrar</button>
-      </div>
-    </form>
+<footer class="bg-primary text-white text-center py-4 mt-5">
+  <p>&copy; 2025 Futebol News. Todos os direitos reservados.</p>
+</footer>
 
-    <div id="mensagem" class="mt-3"></div>
-  </main>
-
-  <footer class="bg-primary text-white text-center py-4 mt-5">
-    <p>&copy; 2025 Futebol News. Todos os direitos reservados.</p>
-  </footer>
-
-  <script>
-    const API_URL = "http://localhost:3000/noticias";
-
-    document.getElementById("form-criar-noticia").addEventListener("submit", async (e) => {
-      e.preventDefault();
-
-      const noticia = {
-        titulo: document.getElementById("titulo").value,
-        resumo: document.getElementById("resumo").value,
-        conteudo: document.getElementById("conteudo").value,
-        imagem: document.getElementById("imagem").value
-      };
-
-      try {
-        const response = await fetch(API_URL, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(noticia)
-        });
-
-        if (response.ok) {
-          document.getElementById("mensagem").innerHTML = '<div class="alert alert-success">Notícia cadastrada com sucesso!</div>';
-          e.target.reset();
-        } else {
-          document.getElementById("mensagem").innerHTML = '<div class="alert alert-danger">Erro ao cadastrar notícia.</div>';
-        }
-      } catch (error) {
-        document.getElementById("mensagem").innerHTML = `<div class="alert alert-danger">Erro: ${error}</div>`;
-      }
-    });
-  </script>
-
+<script src="app.js"></script>
 </body>
 </html>
