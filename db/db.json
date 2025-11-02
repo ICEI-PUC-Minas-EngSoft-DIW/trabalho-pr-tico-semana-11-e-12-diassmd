@@ -1,18 +1,25 @@
 {
-  "usuarios": [
+  "noticias": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "2",
+      "titulo": "Cruzeiro contrata Keny Arroyo",
+      "imagem": "images/cruzeiro_Keny.png",
+      "resumo": "Atacante colombiano chega para reforçar o elenco celeste.",
+      "conteudo": "O Cruzeiro contratou o atacante equatoriano Keny Arroyo..."
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "3",
+      "titulo": "Neymar volta aos treinos após lesão",
+      "imagem": "images/neymar_treino.jpg",
+      "resumo": "O atacante brasileiro deve retornar aos gramados em breve.",
+      "conteudo": "A previsão é que o atacante retorne aos gramados somente nas últimas rodadas..."
+    },
+    {
+      "id": "4",
+      "titulo": "Vinícius Jr. brilha no clássico",
+      "imagem": "images/vinicius_clasico.jpg",
+      "resumo": "Atacante brasileiro marcou dois gols e liderou a vitória.",
+      "conteudo": "Vinícius Jr. fez uma atuação brilhante no clássico, marcando dois gols e sendo eleito o melhor em campo..."
     }
   ]
 }
