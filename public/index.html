@@ -11,12 +11,9 @@
 <header class="bg-primary text-white p-3">
   <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
     <h1 class="mb-3 mb-md-0">Futebol News</h1>
-    <nav>
-      <ul class="nav">
-        <li class="nav-item"><a href="index.html" class="nav-link text-white">Início</a></li>
-        <li class="nav-item"><a href="cadastro_noticias.html" class="nav-link text-white">Cadastrar Notícia</a></li>
-      </ul>
-    </nav>
+    <nav id="menu-principal">
+  <!-- menu dinâmico será injetado aqui pelo app.js -->
+</nav>
   </div>
 </header>
 
@@ -32,6 +29,12 @@
   <!-- Seção de notícias -->
   <section class="mb-5 secao-noticias">
     <h2 class="mb-4 text-primary">Últimas Notícias</h2>
+    <div class="container mt-4">
+    <h2>Pesquisar Notícias</h2>
+
+    <input type="text" id="campoPesquisa" class="form-control mb-4" 
+           placeholder="Digite para pesquisar por título ou resumo...">
+</div>
     <div class="row g-4">
       <!-- Notícias serão populadas via JS -->
     </div>

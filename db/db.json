@@ -1,4 +1,38 @@
 {
+  "usuarios": [
+    {
+      "id": "1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com",
+      "admin": true,
+      "favoritos": []
+    },
+    {
+      "id": "2",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com",
+      "admin": false,
+      "favoritos": [
+        3
+      ]
+    },
+    {
+      "id": "3fef",
+      "nome": "MATHEUS DIAS GONCALVES",
+      "email": "matheusdsgv12@gmail.com",
+      "login": "math",
+      "senha": "123",
+      "admin": true,
+      "favoritos": [
+        1,
+        2
+      ]
+    }
+  ],
   "noticias": [
     {
       "id": "1",
